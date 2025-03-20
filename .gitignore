@@ -1,0 +1,13 @@
+# Terraform State files (sensitive)
+*.tfstate
+*.tfstate.backup
+
+# Terraform variable files (sensitive)
+terraform.tfvars
+terraform.tfvars.json
+
+# Local .terraform directory (TF plugins, configs, cache)
+.terraform/
+
+# Ignore .DS_Store (macOS) and system files
+.DS_Store
